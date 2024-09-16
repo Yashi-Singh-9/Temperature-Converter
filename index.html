@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Temperature Converter</title>
+
+    <link rel="shortcut icon" href="logo.png" type="icon/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h2>Temperature Converter</h2>
+        <p>Enter the temperature, select units and submit</p>
+
+        <input type="number" id="temperature" placeholder="0.00" oninput="checkFields()">
+
+        <select id="fromUnit" onchange="checkFields()">
+            <option value="" disabled selected>From Unit</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+
+        <select id="toUnit" onchange="checkFields()">
+            <option value="" disabled selected>To Unit</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+
+        <button id="convertBtn" disabled onclick="convertTemperature()">Convert</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
