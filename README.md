@@ -20,7 +20,6 @@ Inspired by the [Temperature Converter](https://roadmap.sh/projects/temperature-
 
 ![License](https://img.shields.io/github/license/Yashi-Singh-9/Temperature-Converter)
 ![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Temperature-Converter)
-![Issues](https://img.shields.io/github/issues/Yashi-Singh-9/Temperature-Converter)
 
 ## Installation
 
